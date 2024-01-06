@@ -13,11 +13,11 @@ variable "server_name" {
 }
 
 variable "ami_value" {
-    description = "ami-008fe2fc65df48dac "
+    description = "ami-008fe2fc65df48dac"
 }
 
 variable "instance_type_value" {
-    description = "t2.nano"
+    description = "t2.micro"
 }
 
 variable "subnet_id_value" {
