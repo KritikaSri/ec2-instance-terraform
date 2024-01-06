@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-      - name: terraform init
+      - name: terraform init -upgrade
         uses: robertdebock/terraform-action@1.1.4
         with:
           action: init
