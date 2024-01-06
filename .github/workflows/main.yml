@@ -27,6 +27,6 @@ jobs:
         uses: robertdebock/terraform-action@1.1.4
         with:
           action: apply
-          directory: ./workflow
+         # directory: ./workflow
         env:
           TF_CLI_ARGS: "-input=false -auto-approve"
