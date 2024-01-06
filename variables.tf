@@ -12,13 +12,9 @@ variable "server_name" {
   default = "terraform-test"
 }
 
-variable "ami_value" {
-    description = "ami-008fe2fc65df48dac"
-}
-
-variable "instance_type_value" {
-    description = "t2.micro"
-}
+#variable "ami_value" {
+#    description = "ami-008fe2fc65df48dac"
+#}
 
 variable "subnet_id_value" {
     description = "subnet-0404d6c6343eed67c"
