@@ -6,7 +6,7 @@ on:
    - main
    paths:
    - terraform/**
- commit:
+ create:
    branches:
    - main
    paths:
