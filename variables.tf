@@ -8,13 +8,6 @@ variable "instance_type" {
 variable "availability_zone" {
   default = "us-west-2"
 }
-
-variable "security_group_id" {
-    type    = "list"
-    default = ["sg-0f8e5d19a47cd4938"]
-#you can multiple security groups as above example.
-}
-
 variable "server_name" {
   default = "terraform-test"
 }
