@@ -6,11 +6,6 @@ on:
    - main
    paths:
    - terraform/**
- create:
-   branches:
-   - main
-   paths:
-   - terraform/**
  
 env:
  # verbosity setting for Terraform logs
